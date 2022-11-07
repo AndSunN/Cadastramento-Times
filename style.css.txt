@@ -1,0 +1,204 @@
+body {
+
+    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/originals/37/86/78/378678b640e979cb2153a54081da353a.jpg);
+    background-color: rgb(255, 255, 255);
+    font-family: "Open Sans",sans-serif;
+    background-position-x: center;
+background-size: cover;
+}
+
+.logo {
+    width: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(226, 225, 225, 0.9);
+    display: inline-block;
+    padding: 0;
+    margin-right: 16px;
+    position: relative;
+    z-index: 9;
+    font-size: 18px;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+
+/* BotÃ£o pesquisa */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+    margin: 0 auto;
+
+    max-width: 1296px;
+
+}
+
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    border-radius: 4px;
+
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.containerrato {
+    width: 100%;
+    border-radius: 4px;
+    background: #ffffffd1;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    padding-bottom: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.bg-light {
+    background: #000000 !important;
+}
+
+
+
+
+.textocentrocontainer {
+    padding-top: 14px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding-bottom: 14px;
+    box-shadow: 8px 0px 8px black;
+    background-color: red;
+    color: #000;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+
+.titulo  {
+
+    color: rgb(245, 245, 245);
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.titulo2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: #2f2f2f;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.lista {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+
+.imagem {
+    width: 100%;
+}
+
+.abaixotitulo {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+main, .container {
+
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 1296px;
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+a:hover {
+    color: red;
+}
+
+p {
+    border: 1px solid #00000045;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+
+
+.logocopa{
+    width: 90px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    background: #ffffff00;
+    border: 1px solid #00000045;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.lista {
+    margin-left: 172px;
+    /* max-width: 1023px; */
+    /* padding-right: 199px; */
+    /* padding-left: 200px; */
+    padding: 21px;
+    border: 1px solid #00000045;
+    margin-right: 172px;
+}
+
+.jogadores{
+    margin-top: 20px;
+    border: double;
+}
+
+.Time{
+    border: double;
+}
